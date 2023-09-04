@@ -1,5 +1,27 @@
 # Getting Started with Create React App
 
+## [https://tailwindcss.com/docs/guides/create-react-app](https://tailwindcss.com/docs/guides/create-react-app)
+- npm install -D tailwindcss
+- npx tailwindcss init
+
+
+<code>/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+</code>
+## components
+- [src/components/InfoTitle.jsx](src/components/InfoTitle.jsx)
+- [src/components/Counter.jsx](src/components/Counter.jsx)
+- [src/components/Mapping.jsx](src/components/Mapping.jsx)
+- [src/components/Form.jsx](src/components/Form.jsx)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
